@@ -2,20 +2,17 @@ package view;
 
 import java.util.Scanner;
 
-public class SecretariaView {
+public class MedicoView {
 
 	private Scanner entrada;
 
-	public SecretariaView() {
+	public MedicoView() {
 		entrada = new Scanner(System.in);
 	}
 
 	public void menu() {
 		System.out.println("Menu:");
-		System.out.println("1 - Cadastrar consulta");
-		System.out.println("2 - Cadastrar paciente");
-//		System.out.println("3 - Excluir consulta");
-//		System.out.println("4 - Excluir paciente");
+		System.out.println("1 - Registrar observações da consulta");
 //		
 		String opcao = entrada.nextLine();
 
@@ -25,5 +22,4 @@ public class SecretariaView {
 //			new CadastroDeSecretariaView().solicitarInformacoesParaCadastro();
 //		}
 	}
-
 }
